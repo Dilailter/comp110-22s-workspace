@@ -9,10 +9,10 @@ print("Searching for " + single_letter + " in " + five_letter_word)
 
 if len(five_letter_word) != 5:
     print("Error: Word must contain 5 characters")
-    exit
+    exit()
 if len(single_letter) != 1:
     print("Error: Character must be a single character")
-    exit
+    exit()
 
 if single_letter == five_letter_word[0]:
     print(single_letter + " found at index 0")
@@ -27,7 +27,7 @@ if single_letter == five_letter_word[3]:
     print(single_letter + " found at index 3")
     count = count + 1
 if single_letter == five_letter_word[4]:
-    print(single_letter + " found in index 4")
+    print(single_letter + " found at index 4")
     count = count + 1
 
 if count == 1:
