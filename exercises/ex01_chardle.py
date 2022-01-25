@@ -8,9 +8,11 @@ count: int = 0
 print("Searching for " + single_letter + " in " + five_letter_word)
 
 if len(five_letter_word) != 5:
-    exit("Error: Word must contain 5 characters")
+    print("Error: Word must contain 5 characters")
+    exit
 if len(single_letter) != 1:
-    exit("Error: Character must be a single character")
+    print("Error: Character must be a single character")
+    exit
 
 if single_letter == five_letter_word[0]:
     print(single_letter + " found at index 0")
