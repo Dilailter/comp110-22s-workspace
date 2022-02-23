@@ -3,7 +3,7 @@
 __author__ = "730475811"
 
 
-def only_evens(xs: list[int]) -> list:
+def only_evens(xs: list[int]) -> list[int]:
     """Compute the even from a list."""
     only_evens = []
     i: int = 0
@@ -14,7 +14,7 @@ def only_evens(xs: list[int]) -> list:
     return only_evens
 
 
-def sub(xs: list[int], start: int, end: int) -> list:
+def sub(xs: list[int], start: int, end: int) -> list[int]:
     """Compute the sub list."""
     sub_list = []
     i: int = 0
@@ -25,7 +25,7 @@ def sub(xs: list[int], start: int, end: int) -> list:
     return sub_list
 
 
-def concat(list_one: list[int], list_two: list[int]) -> list:
+def concat(list_one: list[int], list_two: list[int]) -> list[int]:
     """Compute concatenated list."""
     concatenated_list = list_one
     i: int = 0
